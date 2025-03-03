@@ -1,0 +1,29 @@
+{
+  "name": "phpcentroid/query",
+  "description": "Advanced Query Builder for PHP",
+  "minimum-stability":"dev",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Kyriakos Barbounakis",
+      "email": "k.barbounakis@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "PHPCentroid\\": "PHPCentroid/"}
+  },
+  "autoload-dev": {
+    "psr-4": { "PHPCentroid\\Tests\\": "tests/"}
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.5.x-dev",
+    "ext-sqlite3": "*",
+    "ext-json": "*"
+  },
+  "require": {
+    "nikic/php-parser": "^5.4",
+    "opis/closure": "3.x",
+    "league/event": "^3.0@dev"
+  }
+}
