@@ -20,7 +20,6 @@ class QueryExpressionTest extends TestCase
     public function test_MemberExpression()
     {
         $member = new MemberExpression('name');
-        var_dump($member);
         $this->assertEquals('name', $member->name, 'MemberExpression has wrong name');
     }
 
